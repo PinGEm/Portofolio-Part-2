@@ -98,3 +98,33 @@ body{
 .about_me li a:hover{
     background-color:antiquewhite;
 }
+
+.footer{
+    text-align: center;
+    background-color: black;
+    width:100%;
+    position:absolute;
+    left:0;
+    bottom:0;
+}
+
+.footer li{
+    display: inline;
+}
+
+.footer li a{
+    font-size: 24px;
+    padding:24px;
+    color:white;
+}
+
+.footer li a:hover{
+    background-color:#333;
+}
+
+@media(max-width: 1400px){
+    #latest_project{
+        display:none;
+    }
+
+}
